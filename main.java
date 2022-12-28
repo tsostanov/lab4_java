@@ -63,7 +63,7 @@ public class main {
             Ponsik.condition(Condition.Hot);
 
             MinorPersons sidepersons = new MinorPersons("Фуксия и Селедочка");
-            sidepersons.description("рассказывали Незнайке о опасности космических лучей");
+            sidepersons.description("рассказывали Незнайке об опасности космических лучей");
 
             Neznaika.GuessAction(EnumRays.Cosmic + " лучи");
         } catch (Exception e){
